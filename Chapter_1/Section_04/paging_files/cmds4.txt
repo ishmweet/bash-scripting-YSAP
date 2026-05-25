@@ -1,0 +1,18 @@
+1. less
+Displays file contents one page at a time.
+
+Useful for reading large files.
+
+Example:
+- less /usr/share/dict/words
+- cat /usr/share/dict/words | grep -i ^van | less
+
+Displays words starting with "van" (case-insensitive) one page at a time.
+
+Usefull controls inside less:
+Space    -> next page
+b        -> previous page
+/word    -> search for a word
+q        -> quit
+
+
