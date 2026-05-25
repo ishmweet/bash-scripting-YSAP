@@ -1,0 +1,52 @@
+1. mv
+Moves or renames files and folders.
+Can overwrite existing files, use with caution.
+Usage: mv file.txt newfile.txt
+
+2. -i
+A flag, not a command.
+Interactive mode that prompts before overwriting or deleting files.
+
+Example: mv -i file.txt newfile.txt
+	 rm -i file.txt
+
+y for yes, n for no
+
+3. *
+Wildcard character.
+Represents all files or matching patterns.
+
+Examples:
+- rm *.txt
+
+Deletes all .txt files in the current directory.
+
+- touch lesson-1.txt lesson-2.txt lesson-3.txt
+- rm lesson*
+
+Deletes all files starting with "lesson".
+Use with caution.
+
+4. -rf
+Flags, not commands.
+Does not work independently.
+
+-r → recursively deletes folders and their contents.
+-f → force deletes without confirmation.
+
+Example:
+- rm -rf foldername
+
+Deletes the folder and everything inside it without asking.
+Use with extreme caution.
+
+5. alias
+Creates a custom shortcut for a command.
+
+Usage: alias rm="rm -i"
+
+Now typing: rm user_data.txt
+Runs: rm -i user_data.txt
+
+6. history
+Shows previously executed terminal commands.
