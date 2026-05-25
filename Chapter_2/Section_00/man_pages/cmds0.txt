@@ -1,0 +1,66 @@
+1. man
+Displays the manual/help page for commands.
+
+Usage:
+- man command
+
+Examples:
+- man ls
+- man grep
+- man nano
+
+
+2. which
+Shows the location/path of a command executable.
+
+Usage:
+- which command
+
+Examples:
+- which python
+- which nano
+- which grep
+
+
+3. type
+Shows how a command is interpreted by the shell.
+
+Can identify whether something is:
+- a command
+- alias
+- shell builtin
+- function
+
+Usage:
+- type command
+
+Examples:
+- type cd
+- type ls
+- type rm
+
+--> type -a
+Shows all locations and interpretations of a command.
+
+Usage:
+- type -a command
+
+--> type -p
+Shows only the executable path of a command.
+
+Usage:
+- type -p python
+
+--> type -t
+Shows the type of a command.
+
+Usage:
+- type -t cd
+- type -t ls
+
+--> type -f
+Forces type to ignore shell functions.
+
+Usage:
+- type -f command
+

@@ -1,0 +1,19 @@
+1. file
+Shows the type of a file.
+
+Usage:
+- file filename
+
+Examples:
+- file notes.txt --> ASCII text
+- file image.png --> PNG Image data
+- file script.sh --> Bourne-Again shell script
+
+
+2. tr
+Translates or replaces characters from input.
+
+Example:
+- echo | tr "a-z" "A-Z" --> HELLO
+- echo "a:b:c" | tr ":" "/" --> a/b/c
+
