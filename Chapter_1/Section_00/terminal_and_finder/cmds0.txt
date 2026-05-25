@@ -1,31 +1,41 @@
 1. echo
 Prints a message in the terminal.
+
 Usage: echo hi
+
 
 2. pwd
 Print Working Directory
 Shows the current directory you are inside.
-Usage: pwd
+
 
 3. ls
 Lists files and folders in the current directory.
-Usage: ls
+
 
 4. touch
 Creates a new empty file.
+
 Usage: touch user_data.txt
+
 
 5. rm
 Removes/deletes files.
+
 Usage: rm user_data.txt
+
 
 6. mkdir
 Creates a directory.
+
 Usage: mkdir this_is_a_folder
+
 
 7. cd
 Changes the current directory.
+
 Usage: cd this_is_a_folder
+
 
 8. cd ..
 Moves one directory back/up.

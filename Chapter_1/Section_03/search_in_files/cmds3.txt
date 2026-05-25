@@ -1,0 +1,128 @@
+1. cat
+Displays the contents of a file in the terminal.
+
+Usage: cat filename.txt
+
+
+2. grep
+Searches for specific words or patterns in files.
+
+Usage: grep "hello" file.txt
+
+Shows lines containing "hello" from file.txt
+
+--> grep -A1
+Shows 1 line after the matching line.
+
+Usage: grep -A1 "hello" file.txt
+
+--> grep -B1
+Shows 1 line before the matching line.
+
+Usage: grep -B1 "hello" file.txt
+
+--> grep -C1
+Shows 1 line before and 1 line after the matching line.
+
+Usage: grep -C1 "hello" file.txt
+
+--> grep -i
+Performs a case-insensitive search.
+
+Usage: grep -i "hello" file.txt
+
+Matches:
+- hello
+- Hello
+- HELLO
+
+--> grep -o
+Shows only the matched part of a line.
+
+Usage: grep -o "hello" file.txt
+
+Example:
+If file.txt contains:
+- hello world hello
+
+Output:
+- hello
+- hello
+
+--> ^ represents the beginning of a line.
+
+Example: grep "^hello" file.txt
+
+Shows lines starting with "hello"
+
+--> $
+Represents the end of a line in pattern matching and regular expressions.
+
+Example: grep "hello$" file.txt
+
+Shows lines ending with "hello"
+
+--> .
+Matches any single character.
+
+Example:
+- grep -o "^he." file.txt
+
+If file.txt contains:
+- hello
+- world
+- hello
+
+Output:
+- hel
+- hel
+
+
+3. >
+Writes output to a file and overwrites existing content.
+
+Usage: echo "hello" > file.txt
+
+Writes "hello" to file.txt
+
+
+4. >>
+Append redirect operator.
+Writes output to a file without overwriting existing content.
+
+Usage: echo "hello" >> file.txt
+
+Adds "hello" to file.txt
+
+
+5. Piping
+Passes the output of one command as input to another command.
+
+Uses the | symbol.
+
+Usage:
+- command1 | command2
+
+Example:
+- cat file.txt | grep "hello"
+
+Displays only lines containing "hello" from file.txt
+
+Examples:
+- cat /usr/share/dict/words | grep ^van
+
+Shows words starting with "van"
+
+- cat /usr/share/dict/words | grep -i van
+
+Shows words containing "van" (case-insensitive)
+
+- cat /usr/share/dict/words | grep -io "^van."
+
+Shows only matched words starting with "van" followed by one character.
+Case-insensitive search.
+
+Examples:
+- vang
+- vane
+- vans

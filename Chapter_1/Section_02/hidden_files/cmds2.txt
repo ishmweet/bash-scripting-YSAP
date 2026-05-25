@@ -7,12 +7,16 @@ Commands
 1. ls -a
 Lists all files and directories, including hidden files.
 
+
 2. .
 Represents the current directory.
+
 Example: cd .
 Keeps you in the same directory.
 
+
 3. ..
 Represents the parent directory.
+
 Example: cd ..
 Moves one directory back/up.
