@@ -1,0 +1,70 @@
+Comparison operators in Bash:
+
+-eq -> equal to
+-ne -> not equal to
+-gt -> greater than
+-lt -> less than
+-ge -> greater than or equal to
+-le -> less than or equal to
+
+
+String tests in Bash:
+
+-n -> string is not empty
+-z -> string is empty
+=  -> strings are equal
+!= -> strings are not equal
+
+
+File tests in Bash:
+
+-f -> file exists and is a regular file
+-d -> directory exists
+-e -> file or directory exists
+-r -> file is readable
+-w -> file is writable
+-x -> file is executable
+-s -> file is not empty
+
+
+Logical operators in Bash:
+
+&& -> logical AND
+|| -> logical OR
+!  -> logical NOT
+
+File comparison operators:
+
+-nt -> newer than
+-ot -> older than
+-ef -> same file
+
+
+Special file tests:
+
+-b -> block device
+-c -> character device
+-h -> symbolic link
+-L -> symbolic link
+-p -> named pipe
+-S -> socket
+
+
+String comparison operators:
+
+<  -> less than (alphabetically)
+>  -> greater than (alphabetically)
+
+
+Arithmetic operators:
+
++ -> addition
+- -> subtraction
+* -> multiplication
+/ -> division
+% -> modulus
+
+
+Regex operator:
+
+=~ -> regex matching
