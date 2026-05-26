@@ -1,0 +1,21 @@
+1. Shebang
+A special line at the beginning of a script that tells Linux which interpreter should execute the script.
+
+Starts with:
+- #!
+
+Examples:
+- #!/bin/bash (uses bash from a fixed path)
+- #!/usr/bin/env bash (finds bash automtically using the system PATH)
+
+2. bash -n
+Checks a Bash script for syntax errors without executing it.
+
+Usage:
+- bash -n filename.sh
+
+If there are no syntax errors:
+- No output is shown.
+
+If there is an error:
+- Bash displays the syntax error and line number.

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+for thing in "$@"; do #$@ represents all command-line arguments passed to a bash script
+	echo "Thing is $thing"
+done

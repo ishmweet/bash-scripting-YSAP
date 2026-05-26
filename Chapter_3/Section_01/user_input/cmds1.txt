@@ -1,0 +1,44 @@
+1. read -p
+This prompts user for input and echo prints it.
+
+2. if statements
+Used to make decisions in Bash scripts.
+
+Syntax:
+
+if [ condition ]
+then
+    command
+
+elif [ condition ]
+then
+    command
+
+else
+    command
+fi
+
+Common comparison operators in bash:
+-eq -> equal to
+-ne -> not equal to
+-gt -> greater than
+-lt -> less than
+-ge -> greater than or equal to
+-le -> less than or equal to
+
+Example:
+#!/usr/bin/env bash
+
+marks=75
+
+if [ $marks -ge 90 ]
+then
+    echo "A Grade"
+
+elif [ $marks -ge 70 ]
+then
+    echo "B Grade"
+
+else
+    echo "C Grade"
+fi
