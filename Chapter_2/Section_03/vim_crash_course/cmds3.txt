@@ -1,0 +1,20 @@
+1. i
+This is used to edit stuff inside the file.
+
+2. escape key
+This will bring you back to normal mode.
+
+3. :w
+This is used to save the file. (w refers to write)
+
+4. :q
+This is used to quit vim.
+
+5. dd
+This is used to delete/cut a single line. (works in normal mode)
+
+6. yy
+Copy a line.
+
+7. p
+Paste a line.

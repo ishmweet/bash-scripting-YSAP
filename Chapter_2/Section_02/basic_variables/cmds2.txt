@@ -1,0 +1,57 @@
+1. Variables
+Used to store data in Bash.
+
+Usage:
+- name="Dexter"
+
+Accessing variable value:
+- echo $name
+
+Output:
+- Dexter
+
+Important:
+- No spaces around =
+
+Examples:
+
+- age=19
+- echo $age
+
+Output:
+- 19
+
+
+- city="Miami"
+- echo $city
+
+Output:
+- Miami
+
+
+- os="Arch linux"
+- echo $os
+
+Output:
+- Arch linux
+
+
+- tool="grep"
+- echo "Learning $tool"
+
+Output:
+- Learning grep
+
+
+- file="notes.txt"
+- touch $file
+
+Creates:
+- notes.txt
+
+
+Deleting variables:
+
+- unset name
+
+Deletes the variable "name"
