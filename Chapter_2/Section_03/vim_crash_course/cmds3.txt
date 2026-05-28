@@ -31,4 +31,7 @@ Runs the Python file from inside Vim.
 You can also use:
 :!python3 %
 
-% represents the current file name.  
+% represents the current file name.
+
+11. :qa!
+Abandon all changes and exit Vim.
