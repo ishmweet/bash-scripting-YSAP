@@ -18,3 +18,17 @@ Copy a line.
 
 7. p
 Paste a line.
+
+8. u
+undo something
+
+9. :set number
+This enables line numbers on the left side of the editor.
+
+10. :!python3 example.py
+Runs the Python file from inside Vim.
+
+You can also use:
+:!python3 %
+
+% represents the current file name.  
