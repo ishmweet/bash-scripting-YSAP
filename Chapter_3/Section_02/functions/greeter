@@ -3,8 +3,15 @@
 greet(){
 	local name=$1 #local means that this doesn't exist outside of the current function
 	echo "hello $name"
+	return 0
 }
 
 for name in "$@"; do
 	greet "$name"
 done
+
+#var=$(greet dexter)
+#echo "Say $var"
+
+greet dexter
+echo $?
