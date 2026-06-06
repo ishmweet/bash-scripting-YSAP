@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 greet(){
-	local name=$1
+	local name=$1 #local means that this doesn't exist outside of the current function
 	echo "hello $name"
 }
 
