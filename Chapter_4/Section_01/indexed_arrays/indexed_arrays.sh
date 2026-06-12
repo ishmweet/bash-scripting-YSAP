@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+
+
+array=(foo bar baz)
+echo "0: ${array[0]}"
+echo "1: ${array[1]}"
+echo "2: ${array[2]}"
+echo "3: ${array[3]}"
+echo
+
+echo "-1: ${array[-1]}"
+echo "-2: ${array[-2]}"
+echo
+
+idx=2
+echo "idx: ${array[idx]}"
+echo
+
+echo "*: ${array[*]}"
+echo "@: ${array[@]}"
+
+echo
+
+echo "loop over *"
+for item in "${array[*]}"; do
+	echo "item is: $item"
+done
+
+echo
+
+echo "loop over @"
+for item in "${array[@]}"; do
+        echo "item is: $item"
+done
